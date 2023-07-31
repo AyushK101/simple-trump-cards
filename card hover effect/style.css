@@ -1,0 +1,38 @@
+.card {
+    height: 330px;
+    width: 280px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(134, 134, 246);
+    border-radius: 30px;
+    font-size:  xx-large;
+    font-weight:700 ;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+    transition: 0.25s;
+    background-image: linear-gradient(rgba(202, 0, 0, 0.817) , rgba(0, 0, 0, 0.552)) ;
+
+
+}
+img {
+    width: 89%;
+    height: 50%;
+    border-radius: 30px 30px 30px 30px ;
+    position: relative;
+    top: 6%;
+}
+
+.card:hover {
+    width: 320px;
+    height: 370px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.782);
+    background-image: linear-gradient(rgba(21, 20, 20, 0.885), rgba(202, 0, 0, 0.817));
+}
+
+h3,p {
+    font-size: 100%;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+}
